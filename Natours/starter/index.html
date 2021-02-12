@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
 		<link
 			href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
 			rel="stylesheet"
@@ -16,17 +15,433 @@
 		<title>Natours | Exciting tours for adventurous people</title>
 	</head>
 	<body>
+
+		<div class="navigation">
+			<input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+			<label for="navi-toggle" class="navigation__button"><span class="navigation__icon">&nbsp;</span></label>
+
+			<div class="navigation__background">&nbsp;</div>
+
+			<nav class="navigation__nav">
+				<ul class="navigation__list">
+				<li class="navigation__item"><a href="#" class="navigation__link"><span>01</span> Natour</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Hvorfor bruge Natour</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>De mest populære ture</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Hvad synes vores kunder?</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Få mere information</a></li>
+				</ul>
+			</nav>
+		</div>
+
 		<header class="header">
 			<div class="header__logo-box">
-				<img class="header__logo" src="./img/logo-white.png" alt="Company logo" />
+				<img
+					class="header__logo"
+					src="./img/logo-white.png"
+					alt="Company logo"
+				/>
 			</div>
 			<div class="header__text-box">
 				<h1 class="heading-primary">
 					<span class="heading-primary--main">Outdoors</span>
 					<span class="heading-primary--sub">is where life happens</span>
 				</h1>
-				<a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+				<a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
 			</div>
 		</header>
+
+		<main>
+			<section class="section-about">
+				<div class="u-center-text u-margin-bottom-big">
+					<h2 class="heading-secondary">
+						Exciting tours for adventurous people
+					</h2>
+				</div>
+				<div class="row">
+					<div class="col-1-of-2">
+						<h3 class="heading-tertiary u-margin-bottom-small">
+							You're going to fall in love with nature
+						</h3>
+						<p class="paragraph">
+							ipsum ratione molestias alias accusantium, laborum culpa debitis
+							odit quod cum! Alias, debitis. Dicta amet assumenda esse
+							blanditiis eligendi, laborum, quia neque necessitatibus laboriosam
+							nihil quis eos ipsam. Totam vitae optio doloribus, laudantium
+							mollitia ipsam exercitationem iste nihil excepturi tenetur,
+							dolorem accusamus ratione.
+						</p>
+						<h3 class="heading-tertiary u-margin-bottom-small">
+							Live adventurous like you never done before
+						</h3>
+						<p class="paragraph">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+							illum nisi enim consequuntur officia iure quis excepturi repellat
+							quisquam unde autem quo error, illo sed perferendis qui harum
+							facere doloremque.
+						</p>
+						<a href="#" class="btn-text">Learn more &rarr;</a>
+					</div>
+					<div class="col-1-of-2">
+						<div class="composition">
+
+							<img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w" sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Beautiful nature"
+							class="composition__photo composition__photo--p1" src="/img/nat-1-large.jpg">
+
+							<img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w" sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Beautiful nature"
+							class="composition__photo composition__photo--p2" src="/img/nat-2-large.jpg">
+
+							<img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w" sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Beautiful nature"
+							class="composition__photo composition__photo--p3" src="/img/nat-3-large.jpg">
+<!-- 
+							<img
+								src="/img/nat-1-large.jpg"
+								alt="Beautiful nature"
+								class="composition__photo composition__photo--p1"
+							/>
+							<img
+								src="img/nat-2-large.jpg"
+								alt="More beautiful nature"
+								class="composition__photo composition__photo--p2"
+							/>
+							<img
+								src="img/nat-3-large.jpg"
+								alt="Even more beautiful nature"
+								class="composition__photo composition__photo--p3"
+							/> -->
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section-features">
+				
+				<div class="row">
+					<div class="col-1-of-4">
+						<div class="feature-box ">
+							<i class="feature-box__icon icon-basic-world"></i>
+							<div class="h3 heading-tertiary u-margin-bottom-small">Explore the world</div>
+							<p class="feature-box__text">Can I use the gun? Belligerent and numerous. Bender, hurry! This fuel's expensive! Also, we're dying!</p>
+						</div>
+					</div>
+					<div class="col-1-of-4">
+						<div class="feature-box ">
+							<i class="feature-box__icon icon-basic-compass"></i>
+							<div class="h3 heading-tertiary u-margin-bottom-small">Meet nature</div>
+							<p class="feature-box__text">Draw a line in the sand deliverables so workflow ecosystem they have downloaded gmail and seems to be working</p>
+						</div>
+					</div>
+					<div class="col-1-of-4">
+						<div class="feature-box ">
+							<i class="feature-box__icon icon-basic-map"></i>
+							<div class="h3 heading-tertiary u-margin-bottom-small">Find your way</div>
+							<p class="feature-box__text">I play hard in my birthday suit, I did a lot of modeling work in the mid-80s if you dress up like a pin-up doll other shenanigans</p>
+						</div>
+					</div>
+					<div class="col-1-of-4">
+						<div class="feature-box ">
+							<i class="feature-box__icon icon-basic-heart"></i>
+							<div class="h3 heading-tertiary u-margin-bottom-small">Live a healthier life</div>
+							<p class="feature-box__text">Pop-up hexagon palo santo, lyft shabby chic viral letterpress bicycle rights shaman Subway lo-fi austin authentic 90's tumblr.</p>
+						</div>
+					</div>
+				</div>
+				</div>
+			</section>
+
+			<section class="section-tours" id="section-tours">
+				<div class="u-center-text u-margin-bottom-big">
+					<h2 class="heading-secondary">
+						Most popular tours
+					</h2>
+				</div>
+
+				<div class="row">
+					<div class="col-1-of-3">
+						<div class="card">
+							<div class="card__side card__side--front ">
+								<div class="card__picture card__picture--1">
+									&nbsp;
+								</div>
+								<h4 class="card__heading">
+									<span class="card__heading-span card__heading-span--1">
+										The sea explore
+									</span>
+									
+								</h4>
+								<div class="card__details">
+									<ul>
+										<li>3 day tours</li>
+										<li>Up to 30 people</li>
+										<li>2 tour guides</li>
+										<li>Sleep in cozy hotels</li>
+										<li>Difficulty: Easy</li>
+									</ul>
+								</div>
+							</div>
+							<div class="card__side card__side--back card__side--back-1">
+								<div class="card__cta">
+									<div class="card__price-box">
+										<p class="card__price-only">Only</p>
+										<p class="card__price-value">2.979,-</p>
+									</div>
+									<a href="#popup" class="btn btn--white">Book nu</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-1-of-3">
+						<div class="card">
+							<div class="card__side card__side--front ">
+								<div class="card__picture card__picture--2">
+									&nbsp;
+								</div>
+								<h4 class="card__heading">
+									<span class="card__heading-span card__heading-span--2">
+										The forest hiker
+									</span>
+									
+								</h4>
+								<div class="card__details">
+									<ul>
+										<li>7 day tours</li>
+										<li>Up to 40 people</li>
+										<li>6 tour guides</li>
+										<li>Sleep in provided tents</li>
+										<li>Difficulty: Medium</li>
+									</ul>
+								</div>
+							</div>
+							<div class="card__side card__side--back card__side--back-2">
+								<div class="card__cta">
+									<div class="card__price-box">
+										<p class="card__price-only">Only</p>
+										<p class="card__price-value">4.979,-</p>
+									</div>
+									<a href="#popup" class="btn btn--white">Book nu</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-1-of-3">
+						<div class="card">
+							<div class="card__side card__side--front ">
+								<div class="card__picture card__picture--3">
+									&nbsp;
+								</div>
+								<h4 class="card__heading">
+									<span class="card__heading-span card__heading-span--3">
+										The snow adventurer
+									</span>
+									
+								</h4>
+								<div class="card__details">
+									<ul>
+										<li>5 day tours</li>
+										<li>Up to 15 people</li>
+										<li>3 tour guides</li>
+										<li>Sleep in provided tents</li>
+										<li>Difficulty: Hard</li>
+									</ul>
+								</div>
+							</div>
+							<div class="card__side card__side--back card__side--back-3">
+								<div class="card__cta">
+									<div class="card__price-box">
+										<p class="card__price-only">Only</p>
+										<p class="card__price-value">12.979,-</p>
+									</div>
+									<a href="#popup" class="btn btn--white">Book nu</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="u-center-text u-margin-top-big">
+					<a href="#" class="btn btn--green">Se alle ture</a>
+				</div>
+			</section>
+
+			<section class="section-stories">
+				<div class="bg-video">
+					<video class="bg-video__content" autoplay muted loop>
+						<source src="/img/video.mp4" type="video/mp4">	
+						<source src="/img/video.webm" type="video/webm">	
+					</video>
+				</div>
+				<div class="u-center-text u-margin-bottom-big">
+					<h2 class="heading-secondary">
+						We make people genuinely happy					
+					</h2>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/nat-8.jpg" alt="Sabine Berndorff" class="story__img">
+							<figcaption class="story__caption">
+								Sabine Berndorff
+							</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small ">
+								I had the best week ever with my family
+							</h3>
+							<p>Retro before they sold out vinyl, XOXO twee banh mi edison bulb tousled mlkshk VHS kale chips beard affogato pug bespoke. Trust fund banjo chillwave adaptogen beard synth scenester kinfolk gluten-free blog. Locavore offal blog art party fam XOXO austin portland seitan squid. Craft beer lo-fi tilde.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="story">
+						<figure class="story__shape">
+							<img src="img/nat-9.jpg" alt="John Dillerman" class="story__img">
+							<figcaption class="story__caption">
+								John Dillerman
+							</figcaption>
+						</figure>
+						<div class="story__text">
+							<h3 class="heading-tertiary u-margin-bottom-small ">
+								WOW! My life is completely different now
+							</h3>
+							<p>I don't really read much these days I'm just in town for the night but I only smoke when drinking staying up late. Wildly attractive doesn't hurt you will love it if that paragraph above turned you off snapchat. I'm a big fan of you will love it I hope there are good girls left I am a hoarder.</p>
+						</div>
+					</div>
+				</div>
+				<div class="u-center-text u-margin-top-big">
+					<a href="#" class="btn-text">Learn more &rarr;</a>
+				</div>
+			</section>
+
+			<section class="section-book">
+				<div class="row">
+					<div class="book">
+						<div class="book__form">
+							<form action="#" class="form">
+								<div class="u-margin-bottom-medium">
+									<h2 class="heading-secondary">
+										Få mere at vide					
+									</h2>
+								</div>
+
+								<div class="form__group">
+									<input type="text" class="form__input" placeholder="Fornavn og efternavn" id="navn" required>
+									<label for="navn" class="form__label">Fornavn og efternavn</label>
+								</div>
+							
+
+							<div class="form__group">
+									<input type="email" class="form__input" placeholder="Emailadresse" id="email" required>
+									<label for="email" class="form__label">Emailadresse</label>
+							</div>
+
+							<div class="form__group">
+								<div class="form__radio-group">
+									<input type="radio" class="form__radio-input" id="small" name="size">
+									<label for="small" class="form__radio-label">
+										<span class="form__radio-button"></span>
+										Ture i små grupper
+									</label>
+								</div>
+								<div class="form__radio-group">
+									<input type="radio" class="form__radio-input" id="large" name="size">
+									<label for="large" class="form__radio-label">
+										<span class="form__radio-button"></span>
+										Ture i store grupper
+									</label>
+								</div>
+							</div>
+
+							<div class="form-group u-margin-top-small">
+								<button class="btn btn--green"> Send </button>
+							</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__logo-box ">
+
+				<picture class="footer__logo">
+					<source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width: 37.5rem)">
+						<img class="footer__logo" srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Firma logo" src="img/logo-green-2x.png">
+				</picture>
+
+				
+			</div>
+			<div class="row">
+				<div class="col-1-of-2">
+					<div class="footer__navigation">
+						<ul class="footer__list">
+							<li class="footer__item"><a href="#" class="footer__link">Om Natour</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Kontakt os</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Job hos Natour</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Persondata</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Vilkår</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-1-of-2">
+					<p class="footer__copyright">
+						Denne side er lavet af <a href="#" class="footer__link">Jonas Frank</a> for at lære <a href="#" class="footer__link">avanceret CSS og Sass.</a> Copyright &copy; Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ex nulla excepturi iste quos. Laudantium corporis error culpa dolorum doloribus a tenetur modi quasi repellat autem. Quam reprehenderit eius beatae?Excepturi facere eos similique saepe porro mollitia delectus voluptatibus ipsa quod aliquid dolore debitis quam eveniet corrupti, magni quae eius aspernatur? Eligendi placeat laudantium corrupti dicta eius facilis velit ab?
+					</p>
+				</div>
+			</div>
+		</footer>
+
+
+		<div class="popup" id="popup">
+			<div class="popup__content">
+				<div class="popup__left">
+					<img class="popup__img" src="img/nat-8.jpg" alt="Billede fra en af vores flotte ture">
+					<img class="popup__img" src="img/nat-9.jpg" alt="Solnedgang over naturen">
+				</div>
+				<div class="popup__right">
+					<a href="#section-tours" class="popup__close">&times;</a>
+					<h2 class="heading-secondary u-margin-bottom-small">Begynd din rejse her</h2>
+					<h3 class="heading-tertiary u-margin-bottom-small">Vigtigt &ndash; Læs disse betingelser før du booker</h3>
+					<p class="popup__text u-margin-bottom-medium">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto labore in quaerat tenetur tempore, eum neque minima saepe aliquam, amet, ratione totam optio nulla magni! Nostrum eum accusantium rerum velit?Quibusdam cum ut a aliquid aperiam porro minus aut iusto vero, quo iure sit possimus veniam reprehenderit natus? Nisi natus quod odit omnis pariatur quam sed magni quos maxime illo.
+						ratione totam optio nulla magni! Nostrum eum accusantium rerum velit?Quibusdam cum ut a aliquid aperiam porro minus aut iusto vero, quo iure sit possimus veniam reprehenderit natus? Nisi natus quod odit omnis pariatur quam sed magni quos maxime illo.
+					</p>
+					<a href="#" class="btn btn--green">Book nu</a>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<!-- 		<section class="grid-test">
+			<div class="row">
+				<div class="col-1-of-2">Col 1 of 2</div>
+				<div class="col-1-of-2">Col 2 of 2</div>
+			</div>
+			<div class="row">
+				<div class="col-1-of-3">Col 1 of 3</div>
+				<div class="col-1-of-3">Col 2 of 3</div>
+				<div class="col-1-of-3">Col 3 of 3</div>
+			</div>
+			<div class="row">
+				<div class="col-1-of-3">Col 1 of 3</div>
+				<div class="col-2-of-3">Col 2 of 3</div>
+			</div>
+			<div class="row">
+				<div class="col-1-of-4">Col 1 of 4</div>
+				<div class="col-1-of-4">Col 2 of 4</div>
+				<div class="col-1-of-4">Col 3 of 4</div>
+				<div class="col-1-of-4">Col 4 of 4</div>
+			</div>
+			<div class="row">
+				<div class="col-1-of-4">Col 1 of 4</div>
+				<div class="col-1-of-4">Col 2 of 4</div>
+				<div class="col-2-of-4">Col 3 of 4</div>
+			</div>
+			<div class="row">
+				<div class="col-1-of-4">Col 1 of 4</div>
+				<div class="col-3-of-4">Col 3 of 4</div>
+			</div>
+		</section>
+ -->
 	</body>
 </html>
