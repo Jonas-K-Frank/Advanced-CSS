@@ -31,10 +31,12 @@
 		justify-self: end;
 		margin: 1rem;
 
-        &:hover {
-            fill: $color-primary;
-            cursor: pointer;
-        }
+		&:hover,
+		&:focus,
+		&:active {
+			fill: $color-primary;
+			cursor: pointer;
+		}
 	}
 
 	&__name {
